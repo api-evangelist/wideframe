@@ -1,7 +1,29 @@
 aid: wideframe
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wideframe.png
 name: Wideframe
-description: Wideframe is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Wideframe is a Y Combinator (Winter 2026) startup building an AI agent for
+  video production that automates the work editors do outside the editing
+  timeline. It searches, labels, organizes, and sequences raw footage across
+  local filesystems and cloud storage, indexing large media libraries by meaning
+  and outputting native, editable Adobe Premiere Pro (.prproj) sequences rather
+  than synthetic video. Delivered as an Apple Silicon (M1+) desktop application,
+  it targets brands, agencies, and professional editors who spend far longer
+  preparing footage than actually cutting it. Wideframe currently ships as a
+  consumer/product application with no public developer API, SDK, or
+  documentation surface; this profile is maintained in the API Evangelist
+  network as a company lead.
 url: https://raw.githubusercontent.com/api-evangelist/wideframe/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +33,37 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Artificial Intelligence
+- Video
+- Video Editing
+- Media
+- Content Production
+- AI Agents
+- Desktop Application
 apis: []
+common:
+- type: DomainSecurity
+  url: security/wideframe-domain-security.yml
+- type: Website
+  url: https://wideframe.com
+- type: Blog
+  url: https://try.wideframe.com/blog
+- type: SignUp
+  url: https://try.wideframe.com/onboarding
+- type: TermsOfService
+  url: https://try.wideframe.com/terms
+- type: PrivacyPolicy
+  url: https://try.wideframe.com/privacy
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
