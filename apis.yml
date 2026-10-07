@@ -56,6 +56,8 @@ tags:
 - Desktop Application
 apis: []
 common:
+- type: Plans
+  url: plans/wideframe-plans-pricing.yml
 - type: DomainSecurity
   url: security/wideframe-domain-security.yml
 - type: Website
