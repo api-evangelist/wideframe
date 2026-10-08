@@ -1,0 +1,35 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://try.wideframe.com/pricing/
+sources:
+- https://try.wideframe.com/pricing/
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T112026
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: tiered-subscription
+delivery:
+  delivery: unclear
+  method: page
+  read: '2026-10-07'
+  managed_tier: MONTHLY INDIVIDUAL
+published: true
+note: Requires an Apple Silicon Mac (M1 or newer) and Premiere Pro; beta pricing may change. Team pricing
+  is quote-based.
+plan_count: 2
+currency: USD
+plans:
+- name: Monthly Individual
+  price_text: $100 /MONTH
+  price: 100
+  currency: USD
+  period: month
+  unit: user
+  included_quota: Unlimited AI video editing and generation on M1 Mac or newer; 7-day free trial
+- name: Monthly Team
+  price_text: Custom
+  period: month
+  unit: team
+  included_quota: Everything in the individual plan, team and term discounts, custom deployment options
